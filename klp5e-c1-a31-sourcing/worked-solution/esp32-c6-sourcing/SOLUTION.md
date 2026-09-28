@@ -10,21 +10,32 @@ library release 3.2.1, and the datasheet "ESP32-C6-WROOM-1 & WROOM-1U Datasheet"
 | Question | Answer | How we know |
 |---|---|---|
 | Stage 1: in KiCad's standard library? | **No** | Symbol chooser, `esp32-c6`: one hit, `RF_Module:ESP32-C6-MINI-1`. Footprint chooser, `c6-wroom`: nothing. |
-| Stage 2: from a reliable source? | **Yes** | Espressif, the manufacturer, publishes its own KiCad library on GitHub, free and with no login. Its README says every footprint follows the datasheet's Recommended PCB Land Pattern. |
-| Stage 3: needed? | No | Stage 2 answered it. |
+| Stage 2: from a reliable source? | **Yes** | SnapMagic lists `ESP32-C6-WROOM-1-N8` by Espressif Systems with a symbol, a footprint and a 3D model. Espressif, the manufacturer, also publishes its own KiCad library on GitHub, free and with no login, and its README says every footprint follows the datasheet's Recommended PCB Land Pattern. |
+| Stage 3: author it yourself | Not in this activity | Stage 2 answered it, and this activity never goes to stage 3. |
 
 **The stage that answered it: stage 2.**
 
 The trap at stage 1 is the MINI-1. It is the same chip in a different module, 13.2 by 16.6 mm
 with a different pad layout, so it is a different part. A near miss in the chooser is a no.
 
-A parts-library service such as SnapMagic may well carry this module too. When the manufacturer
-publishes its own library, that is the one to take (lecture 3.1).
+The trap at stage 2 is `ESP32-C6-WROOM-1U-N8`, which sits right beside it in SnapMagic's results.
+The U version has an antenna connector instead of an antenna on the module. It is a different part.
+
+SnapMagic is the source the task sends you to, and the first stop on lecture 3.1's list. The files
+in this worked solution come from the next source on that list, Espressif's own library, because
+Espressif's licence lets us pass its files on to you. Both are reliable sources, and both answer
+the tree at stage 2.
 
 This answer belongs to KiCad 10.0.6. The standard library grows between releases, so if a later
 release adds the WROOM-1, stage 1 answers it instead. Ask the question every time.
 
 ## 2. The download
+
+This section describes Espressif's download, the one this worked solution is built from. If you
+used SnapMagic, as the task says, your file names, your nickname and your 3D model path as
+downloaded will all be different, and that is fine. Compare the pattern instead: what came in the
+download and what you kept, whether the symbol's Footprint field names a nickname you registered,
+and whether the downloaded 3D model path points anywhere inside your project.
 
 The library comes from <https://github.com/espressif/kicad-libraries/releases/latest>, as
 `espressif-kicad-addon.zip`. That is 55 MB, and it unpacks to about 260 MB for the whole Espressif
@@ -53,7 +64,12 @@ because this worked solution passes the library on to you, and the licence requi
 
 Datasheet Figure 11-1, "ESP32-C6-WROOM-1 Recommended PCB Land Pattern", page 44. All values in
 millimetres. The footprint values are pad centres read from Pad Properties and distances measured
-with the Measure Tool.
+with the Measurement tool.
+
+The Datasheet column is the same for any download. The Footprint column is what we measured in
+Espressif's file. A footprint from SnapMagic may be built differently, for example with the middle
+pad drawn another way, so measure your own and judge it against the Datasheet column, not against
+ours.
 
 | Check | Datasheet | Footprint | Match? |
 |---|---|---|---|
@@ -85,7 +101,9 @@ Datasheet Table 3-1, "Pin Definitions", page 11.
 | NC | 22 | 22, NC | Yes |
 | Names that differ | The table uses short names: `IO4`, `EN`, `RXD0`, `TXD0` | The symbol spells out functions: `MTMS/GPIO4/ADC1_CH4`, `EN/CHIP_PU`, `U0RXD/GPIO17`, `U0TXD/GPIO16` | Yes: same pin numbers, same functions |
 
-We checked all 29 pins, not only the ones in the table above.
+We checked all 29 pins, not only the ones in the table above. The Symbol column shows Espressif's
+names; a symbol from SnapMagic may use the table's short names instead. Either is a match when the
+pin number and the function agree.
 
 ## 5. The travel test
 

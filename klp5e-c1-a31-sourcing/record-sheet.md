@@ -6,16 +6,20 @@ Part number: ______________________  Datasheet version: ________
 
 | Question | Your answer | How you know |
 |---|---|---|
-| Stage 1: in KiCad's standard library? | | What you searched, in which chooser, and what came back |
-| Stage 2: from a reliable source? | | Which source, and why you trust it |
-| Stage 3: needed? | | |
+| Stage 1: in KiCad's standard library? | | What you searched, in which chooser, and what came back. Any near miss, and why it is a different part |
+| Stage 2: from a reliable source? | | Which source (SnapMagic, unless you had to move on), the exact part number in the row you picked, and whether it offered a symbol, a footprint and a 3D model |
+| Stage 3: author it yourself | Not in this activity | |
 
 **The stage that answered it:** ______
+
+If a download failed a check and you moved to another source, write both here: the source you
+rejected, the number that decided it, and the source you used instead.
 
 ## 2. The download
 
 | Question | Your answer |
 |---|---|
+| Where it came from, and the file name of the download | |
 | What was in the download? | |
 | Which files did you keep? | |
 | Library nickname(s) you registered | |
