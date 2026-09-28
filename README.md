@@ -13,5 +13,6 @@ manager, and carry on from there.
 | Folder | Project | Used in |
 |---|---|---|
 | [`klp5e-c1-blinky/`](klp5e-c1-blinky/) | The 555 LED blinker | Module 1 |
+| [`klp5e-c1-a31-sourcing/`](klp5e-c1-a31-sourcing/) | Activity A3.1: source a part you have never used (task, record sheet, worked solution) | Module 3 |
 
 See each project's own README for what each stage contains.

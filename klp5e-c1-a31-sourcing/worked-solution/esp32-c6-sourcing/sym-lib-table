@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Espressif")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Espressif.kicad_sym")(options "")(descr "Espressif KiCad library 3.2.1, from the GitHub release"))
+)

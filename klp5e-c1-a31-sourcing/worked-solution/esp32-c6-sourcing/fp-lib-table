@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Espressif")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Espressif.pretty")(options "")(descr "ESP32-C6-WROOM-1 only, from Espressif KiCad library 3.2.1"))
+)
