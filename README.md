@@ -14,5 +14,6 @@ manager, and carry on from there.
 |---|---|---|
 | [`klp5e-c1-blinky/`](klp5e-c1-blinky/) | The 555 LED blinker | Module 1 |
 | [`klp5e-c1-a31-sourcing/`](klp5e-c1-a31-sourcing/) | Activity A3.1: source a part you have never used (task, record sheet, worked solution) | Module 3 |
+| [`klp5e-c1-m5-solar-psu/`](klp5e-c1-m5-solar-psu/) | The tiny solar power supply (schematic stages) | Module 5 |
 
 See each project's own README for what each stage contains.
