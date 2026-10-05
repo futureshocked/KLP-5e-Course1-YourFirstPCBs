@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "USB4125-GF-A-0190_REVA2") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Symbols/USB4125-GF-A-0190_REVA2.kicad_sym") (options "") (descr ""))
+)
