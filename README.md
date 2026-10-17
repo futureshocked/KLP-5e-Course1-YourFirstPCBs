@@ -8,6 +8,11 @@ known-good result.
 Clone this repository, or download the stage folder you need, open it in KiCad's project
 manager, and carry on from there.
 
+## About the course and the book series
+
+To learn more about Course 1 and the *KiCad Like a Pro, 5th Edition* book series,
+visit the [KLP 5e course page](https://techexplorations.com/kicad/course/).
+
 ## Projects
 
 | Folder | Project | Used in |
