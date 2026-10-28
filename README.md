@@ -13,6 +13,10 @@ manager, and carry on from there.
 To learn more about Course 1 and the *KiCad Like a Pro, 5th Edition* book series,
 visit the [KLP 5e course page](https://techexplorations.com/kicad/course/).
 
+## The sixteen-step card
+
+The workflow from Module 2 on one printable page is in [`sixteen-steps/`](sixteen-steps/). Keep it open while you design your own board.
+
 ## Projects
 
 | Folder | Project | Used in |
