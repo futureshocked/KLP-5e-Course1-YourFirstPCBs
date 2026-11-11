@@ -4,6 +4,12 @@ One folder per step of the tiny solar power supply, used by Course 1 Module 5 an
 A5.1 and A5.2. Each stage is the project as it stood at the end of a lecture and the start of the
 next one. Open the `.kicad_pro` file inside a stage folder in KiCad.
 
+The three imported footprints live in `Libraries/footprints.pretty`, one footprint library for
+the whole project. A footprint library is a folder whose name ends in `.pretty`; Chapter 6 of
+the book explains why. In the lecture 5.2 video the folder is still called `footprints`, its old
+name. KiCad loads it either way, and the library's nickname is `footprints` in both, so nothing
+else changes.
+
 | Stage | State |
 |---|---|
 | `00-libraries-waiting` | New project, the three part libraries not yet registered |

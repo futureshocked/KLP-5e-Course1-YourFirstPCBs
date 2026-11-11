@@ -6,7 +6,10 @@ next one. Open the `.kicad_pro` file inside a stage folder in KiCad.
 
 The project starts from the end of Module 3, so the first stage is `03`. J1 is the USB-C
 connector you sourced in Module 3; its symbol and footprint live in each stage's `Libraries/`
-folder.
+folder. The footprint library is `Libraries/Footprints.pretty`: a footprint library is a folder
+whose name ends in `.pretty`. The Module 3 and 4 videos show the folder under its old name,
+`Footprints`. KiCad loads it either way, and the library's nickname is `Footprints` in both, so
+nothing else changes.
 
 | Stage | State |
 |---|---|
